@@ -1,0 +1,26 @@
+.tell-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  color: whitesmoke;
+  width: 350px;
+  height: auto;
+}
+
+button {
+  border-radius: 25px;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+button:active {
+  transform: translate(0.2rem, 0.2rem);
+}
+
+p {
+  padding: 5px 5px;
+}
