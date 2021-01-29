@@ -4,7 +4,6 @@
   justify-content: center;
   align-items: center;
   border-radius: 20px;
-  color: whitesmoke;
   width: 350px;
   height: auto;
 }
@@ -23,4 +22,5 @@ button:active {
 
 p {
   padding: 5px 5px;
+  color: rgb(6, 0, 37);
 }

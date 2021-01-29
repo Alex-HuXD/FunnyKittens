@@ -1,21 +1,10 @@
-import React, {useState}from "react";
+import React from "react";
 import Card from "./Card";
 import TellMe from './TellMe';
 
 
 
 function CardContainer({cats}) {
-    const [text,setText] = useState("");
-    
-    const onClick=()=>{
-       fetch('https://v2.jokeapi.dev/joke/Dark,Spooky?blacklistFlags=nsfw,religious,political,racist,sexist')
-       .then(res=>res.json())
-       .then(data=>console.log(data))
-
-       console.log(text);
-    }
-
-
     let toggle = false;
     if(cats.length === 1){
         toggle = true;
@@ -29,7 +18,7 @@ function CardContainer({cats}) {
                 return <Card key={i} name={cats[i].name} id={cats[i].id} email={cats[i].emai} />
             })}
             
-            {toggle === false? null: <TellMe onClick={onClick} text={text}/>}   
+            {toggle === false? null: <TellMe />}   
         </div>
     )
     
