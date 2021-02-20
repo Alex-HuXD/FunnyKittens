@@ -38,7 +38,7 @@ const App = () => {
     <h1 style={{ color: "white" }}>Loading</h1>
   ) : (
     <div className="App tc">
-      <h1 className="title white">Crazy Kittens</h1>
+      <h1 className="title white">Funny Kittens</h1>
       <SearchBox searchChange={onSearchChange} />
       <p
         style={{
