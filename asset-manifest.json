@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/FunnyKittens/static/css/main.63f89306.chunk.css",
-    "main.js": "/FunnyKittens/static/js/main.85328cfa.chunk.js",
-    "main.js.map": "/FunnyKittens/static/js/main.85328cfa.chunk.js.map",
+    "main.js": "/FunnyKittens/static/js/main.4242abcf.chunk.js",
+    "main.js.map": "/FunnyKittens/static/js/main.4242abcf.chunk.js.map",
     "runtime-main.js": "/FunnyKittens/static/js/runtime-main.c6a32dec.js",
     "runtime-main.js.map": "/FunnyKittens/static/js/runtime-main.c6a32dec.js.map",
     "static/css/2.31461e4f.chunk.css": "/FunnyKittens/static/css/2.31461e4f.chunk.css",
@@ -18,6 +18,6 @@
     "static/css/2.31461e4f.chunk.css",
     "static/js/2.45de46b6.chunk.js",
     "static/css/main.63f89306.chunk.css",
-    "static/js/main.85328cfa.chunk.js"
+    "static/js/main.4242abcf.chunk.js"
   ]
 }
