@@ -24,6 +24,10 @@ const App = () => {
     fetch("https://jsonplaceholder.typicode.com/users")
       .then((res) => res.json())
       .then((users) => setCats(users));
+
+      return () => {
+        setCats([]);
+      };
   }, []);
 
   const onSearchChange = (e) => {

@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card should display same as snapshot && if style change is intentional then snapshot must be updated 1`] = `"<div><div class=\\" bg-light-green white-90 dib br3 pa2 ma3 shadow-5 grow\\"><img src=\\"https://robohash.org/1?set=set4&amp;size=250x250\\" alt=\\"card\\"><div><p>testName</p><p>testEmail</p></div></div></div>"`;
